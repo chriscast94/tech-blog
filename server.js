@@ -1,3 +1,4 @@
+//Utilized Week 14 MVC Review and Mini Project for base code
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
@@ -15,7 +16,7 @@ const PORT = process.env.PORT || 3001;
 const hbs = exphbs.create({ helpers });
 
 const sess = {
-    secret: 'Super secret secret',
+    secret: 'kind of secret',
     cookie: {
         maxAge: 9001
     },
